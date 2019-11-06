@@ -1,11 +1,11 @@
 {
   "pages": [
+    "pages/index/index",
     
     "pages/map_show/map_show",
     "pages/maps/maps",
     
     "pages/Requests/Requests",
-    "pages/index/index",
     
     "pages/DL/DL",
     "pages/shouye/shouye",
