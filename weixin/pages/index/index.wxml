@@ -3,8 +3,10 @@
   <view class='header'>
    健身super
   </view>
-  <movable-area style="height: 600px; width: 370px;">
-    <movable-view style="height: 400px; width: 400px; " x="{{x}}" y="{{y}}" direction="all">
+
+  <movable-area  style="height: 600rpx; width: 100%; display:flex; justify-content:center; align-items:center;  ">
+ 
+    <movable-view scale-area="True" style="margin: 30rpx 0 0 25%; height: 45%; width: 50%;    display:flex; justify-content:center; align-items:center;"  direction="all">
   <button class='bottom'  open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="bindGetUserInfo">
    <image class="img" src="../index/9.gif" > </image>
   </button>
