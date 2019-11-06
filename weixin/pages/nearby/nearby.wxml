@@ -1,0 +1,77 @@
+<!--pages/public_index/public_index.wxml-->
+<!--index.wxml-->
+<view id='container'>
+
+<swiper interval="{{interval}}" duration="{{duration}}" autoplay="ture" indicatorDots="{{indicatorDots}}" style="margin-left:0;margin-right:0">
+<swiper-item wx:for='{{imgUrls}}' wx:key='unique'>
+<image src="{{item}}" class="swiper-item"></image>
+</swiper-item>
+</swiper>
+</view>
+
+<view ></view>
+<view style="width:375px;height:107px;background-color:rgb(255,255,255);margin-top:5px;margin-bottom:5px;margin-left:auto;margin-right:auto">
+
+  <view style="padding:40px;" bindtap="room_detail" >
+  <text >新天地</text>
+
+
+
+  <!-- <image src="/static/imgs/u1.png" style="width:40px;height:40px"></image> -->
+  
+  </view>
+
+</view>
+
+<view style="width:375px;height:107px;background-color:rgb(255,255,255);margin-top:5px;margin-bottom:5px;margin-left:auto;margin-right:auto">
+
+  <view style="padding:40px;">
+  <text >王府井</text>
+
+
+
+  <!-- <image src="/static/imgs/u2.png" style="width:40px;height:40px"></image> -->
+  
+  </view>
+
+  
+</view>
+
+
+
+
+
+<view style="width:375px;height:107px;background-color:rgb(255,255,255);margin-top:5px;margin-bottom:5px;margin-left:auto;margin-right:auto">
+
+  <view style="padding:40px;">
+  <text >上海南路</text>
+
+
+
+  <!-- <image src="/static/imgs/u3.png" style="width:40px;height:40px"></image> -->
+  
+  </view>
+
+</view>
+<view style="width:375px;height:107px;background-color:rgb(255,255,255);margin-top:5px;margin-bottom:5px;margin-left:auto;margin-right:auto">
+
+  <view style="padding:40px;">
+  <text >体育西路</text>
+
+
+
+  <!-- <image src="/static/imgs/u4.png" style="width:40px;height:40px"></image> -->
+  
+  </view>
+</view>
+<view style="width:375px;height:107px;background-color:rgb(255,255,255);margin-top:5px;margin-bottom:5px;margin-left:auto;margin-right:auto">
+  <view style="padding:40px;">
+  <text >南京路</text>
+
+
+
+  <!-- <image src="/static/imgs/u5.png" style="width:40px;height:40px"></image> -->
+  
+  </view>
+
+</view>

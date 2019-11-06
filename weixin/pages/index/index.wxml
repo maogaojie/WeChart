@@ -1,0 +1,15 @@
+<view class="nav-list">
+        <navigator class="nav-item" url="#" >
+            <image class="item-center icon" bindtap="Map" src="/static/imgs/i1.jpg" ></image>
+   
+        </navigator>
+        <navigator class="nav-item" url="../public_course/public_course">
+            <image class="item-center icon" src="/static/imgs/i2.jpg">
+            </image>
+
+        </navigator>
+        <navigator class="nav-item" url="../myAddress/myAddress">
+            <image class="item-center icon" src="/static/imgs/i3.jpg"></image>
+
+        </navigator>
+    </view>

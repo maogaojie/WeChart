@@ -1,0 +1,5 @@
+/* pages/nearby/nearby.wxss */
+.swiper-item{
+  display: flex;
+  width: auto;
+}

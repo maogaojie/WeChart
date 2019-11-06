@@ -1,0 +1,37 @@
+
+/* pages/home/home.wxss */
+.nav-list {
+
+}
+
+.nav-item {
+    height: 450rpx;
+    background-color: white;
+    display: flex;
+    padding: 0;
+
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.item-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item .icon {
+    margin: 0x;
+    height: 450rpx;
+    width: 750rpx;
+}
+
+.nav-item .text {
+    font-size: 10px;
+}
+
+.nav-item .arrow {
+    margin: 10px 10px 10px auto;
+    font-size: 10px;
+}
+
+

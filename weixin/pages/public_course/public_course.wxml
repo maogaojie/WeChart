@@ -1,0 +1,56 @@
+<!--pages/home/home.wxml-->
+<view>
+
+<text>团课</text>
+
+</view>
+
+
+    <view class="nav-list">
+        <navigator class="nav-item" url="../shoppingCart/shoppingCart">
+            <image class="item-center icon" src="/static/imgs/u1.png"></image>
+            <view class="item-center text">腹肌训练入门1</view>
+            <view class="item-center arrow"> > </view>
+        </navigator>
+        <navigator class="nav-item" url="../myFavorite/myFavorite">
+            <image class="item-center icon" src="/static/imgs/u2.png"></image>
+            <view class="item-center text">腹肌训练入门1</view>
+            <view class="item-center arrow"> > </view>
+        </navigator>
+        <navigator class="nav-item" url="../myAddress/myAddress">
+            <image class="item-center icon" src="/static/imgs/u3.png"></image>
+            <view class="item-center text">腹肌训练入门1</view>
+            <view class="item-center arrow"> > </view>
+        </navigator>
+        <navigator class="nav-item" url="../myAddress/myAddress">
+            <image class="item-center icon" src="/static/imgs/u3.png"></image>
+            <view class="item-center text">腹肌训练入门1</view>
+            <view class="item-center arrow"> > </view>
+        </navigator>
+        <navigator class="nav-item" url="../myAddress/myAddress">
+            <image class="item-center icon" src="/static/imgs/u3.png"></image>
+            <view class="item-center text">腹肌训练入门1</view>
+            <view class="item-center arrow"> > </view>
+        </navigator>
+        <navigator class="nav-item" url="../myAddress/myAddress">
+            <image class="item-center icon" src="/static/imgs/u3.png"></image>
+            <view class="item-center text">腹肌训练入门1</view>
+            <view class="item-center arrow"> > </view>
+        </navigator>
+        <navigator class="nav-item" url="../myAddress/myAddress">
+            <image class="item-center icon" src="/static/imgs/u3.png"></image>
+            <view class="item-center text">腹肌训练入门1</view>
+            <view class="item-center arrow"> > </view>
+        </navigator>
+        <navigator class="nav-item" url="../myAddress/myAddress">
+            <image class="item-center icon" src="/static/imgs/u3.png"></image>
+            <view class="item-center text">腹肌训练入门1</view>
+            <view class="item-center arrow"> > </view>
+        </navigator>
+        <navigator class="nav-item" url="../myAddress/myAddress">
+            <image class="item-center icon" src="/static/imgs/u3.png"></image>
+            <view class="item-center text">腹肌训练入门1</view>
+            <view class="item-center arrow"> > </view>
+        </navigator>
+        
+    </view>

@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/plan/plan",
+    "pages/userinfo/userinfo",
+    "pages/private/private",
+    "pages/home/home",
+    "pages/public_course/public_course",
+    "pages/public_index/public_index",
+    "pages/nearby/nearby",
+    "pages/room_detail/room_detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#F8F8FF",
+    "navigationBarTitleText": "Loop训练馆",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#9E9E9E",
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/imgs/index_off.png",
+        "selectedIconPath": "static/imgs/index_on.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/public_index/public_index",
+        "iconPath": "static/imgs/publicoff.png",
+        "selectedIconPath": "static/imgs/publicon.png",
+        "text": "团课"
+      },
+      {
+        "pagePath": "pages/private/private",
+        "iconPath": "static/imgs/privateoff.png",
+        "selectedIconPath": "static/imgs/privateon.png",
+        "text": "私教"
+      },
+      {
+        "pagePath": "pages/plan/plan",
+        "iconPath": "static/imgs/planoff.png",
+        "selectedIconPath": "static/imgs/planon.png",
+        "text": "计划"
+      },
+      {
+        "pagePath": "pages/userinfo/userinfo",
+        "iconPath": "static/imgs/userinfooff.png",
+        "selectedIconPath": "static/imgs/userinfoon.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取当前地理位置"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}
