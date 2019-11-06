@@ -1,2 +1,6 @@
 <!--pages/plan/plan.wxml-->
-<text>pages/plan/plan.wxml</text>
+<view>
+
+<text>我的计划</text>
+
+</view>

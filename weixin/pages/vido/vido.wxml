@@ -1,0 +1,21 @@
+
+<view class="section tc">
+  <video class="vid" id="myVideo" src="{{url}}" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
+  <iframe src="//player.bilibili.com/player.html?aid=42819033&cid=117345667&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+  <view class="btn-area">
+   
+    <input  style=" margin: 5rpx 5% 0 5%; width:90%; height:50px; background:#c0c0c0;" bindblur="bindInputBlur"/>
+    <button style=" margin: 3rpx 5% 0 5%; width:90%; height:50px; background:#c0c0c0;" bindtap="bindSendDanmu">发送弹幕</button>
+  </view>
+</view>
+
+
+
+<view class="section tc">
+  <video class="vid" id="myVideo" src="{{url}}" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
+  <view class="btn-area">
+   
+    <input style=" margin: 5rpx 5% 0 5%; width:90%; height:50px; background:#c0c0c0;" bindblur="bindInputBlur"/>
+    <button style=" margin: 3rpx 5% 0 5%; width:90%; height:50px; background:#c0c0c0;" bindtap="bindSendDanmu">发送弹幕</button>
+  </view>
+</view>

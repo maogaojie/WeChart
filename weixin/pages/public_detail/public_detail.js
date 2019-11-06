@@ -1,28 +1,13 @@
-// pages/nearby/nearby.js
+// pages/public_detail/public_detail.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    imgUrls: ['/static/imgs/1.png', '/static/imgs/1.png', '/static/imgs/1.png', '/static/imgs/1.png'
-    ],
-    
-    indicatorDots: true,
-    autoplay: true,
-    interval: 2000,
-    duration: true,
+
   },
-  room_detail: function (opt) {
-    wx.navigateTo({
-      url: '../room_detail/room_detail',
-    })
-  },
-  back:function(){
-    wx.reLaunch({
-      url: '../index/index',
-    })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */
@@ -77,20 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  openmap:function(){
-    wx.showLoading({
-      title: '',
-      mask: true,
-      success: function(res) {
-        wx.navigateTo({
-          url: '../dimal/dimal'
-        })
-      },
-      fail: function(res) {},
-      complete: function(res) {},
-      duration: 2000
-    })
- 
   }
 })

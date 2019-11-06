@@ -1,4 +1,4 @@
-// pages/private/private.js
+// pages/hotcourse/hotcourse.js
 Page({
 
   /**

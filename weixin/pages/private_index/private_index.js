@@ -1,4 +1,4 @@
-// pages/public_course/public_course.js
+// pages/private_index/private_index.js
 Page({
 
   /**

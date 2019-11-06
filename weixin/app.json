@@ -1,14 +1,18 @@
 {
   "pages": [
+    "pages/identify/identify",
     "pages/index/index",
     "pages/plan/plan",
     "pages/userinfo/userinfo",
-    "pages/private/private",
+    "pages/private_index/private_index",
     "pages/home/home",
-    "pages/public_course/public_course",
+    "pages/hotcourse/hotcourse",
     "pages/public_index/public_index",
     "pages/nearby/nearby",
-    "pages/room_detail/room_detail"
+    "pages/room_detail/room_detail",
+    "pages/public_detail/public_detail",
+    "pages/dimal/dimal",
+    "pages/vido/vido"
   ],
   "window": {
     "backgroundTextStyle": "dark",
@@ -35,7 +39,7 @@
         "text": "团课"
       },
       {
-        "pagePath": "pages/private/private",
+        "pagePath": "pages/private_index/private_index",
         "iconPath": "static/imgs/privateoff.png",
         "selectedIconPath": "static/imgs/privateon.png",
         "text": "私教"

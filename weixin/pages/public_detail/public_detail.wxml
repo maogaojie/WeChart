@@ -1,0 +1,62 @@
+<view class="bannerview">
+<image mode='widthFix' class="banner" src='/static/imgs/dark.png'></image>
+</view>
+
+
+<view class="view_item">
+
+<navigator class="nav-item" url="#">
+            <view class="item-center text">2月18日</view>
+            <view class="item-center text">王府井</view>
+
+            <view class="item-center arrow"> > </view>
+</navigator>
+
+</view>
+
+
+
+<view class="view_item">
+
+<navigator class="nav-item" url="#">
+
+            <view class="item-center text">阿泽</view>
+            <view class="item-center arrow"> > </view>
+</navigator>
+
+</view>
+
+
+<view class="view_item">
+
+<navigator class="nav-item1" url="#">
+            <view class="item-center text">课程说明</view>
+</navigator>
+
+</view>
+
+<view class="view_item">
+
+<navigator class="nav-item1" url="#">
+            <view class="item-center text">训练效果</view>
+</navigator>
+
+</view>
+
+
+<view class="view_item">
+
+<navigator class="nav-item1" url="#">
+            <view class="item-center text">适合人群</view>
+</navigator>
+
+</view>
+
+
+<view class="view_item">
+
+<navigator class="nav-item1" url="#">
+            <view class="item-center text">FAQ</view>
+</navigator>
+
+</view>

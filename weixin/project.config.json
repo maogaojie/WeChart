@@ -54,9 +54,45 @@
 					"scene": null
 				},
 				{
+					"id": 1,
+					"name": "pages/hotcourse/hotcourse",
+					"pathName": "pages/hotcourse/hotcourse",
+					"query": "",
+					"scene": null
+				},
+				{
 					"id": -1,
-					"name": "pages/home/home",
-					"pathName": "pages/home/home",
+					"name": "pages/public_detail/public_detail",
+					"pathName": "pages/public_detail/public_detail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/nearby/nearby",
+					"pathName": "pages/nearby/nearby",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 4,
+					"name": "pages/public_index/public_index",
+					"pathName": "pages/public_index/public_index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/userinfo/userinfo",
+					"pathName": "pages/userinfo/userinfo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 6,
+					"name": "pages/vido/vido",
+					"pathName": "pages/vido/vido",
+					"query": "",
 					"scene": null
 				}
 			]

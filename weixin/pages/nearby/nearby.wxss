@@ -3,3 +3,20 @@
   display: flex;
   width: auto;
 }
+
+.view_item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.view_tiem1{
+  display: flex;
+  width: auto;
+  height: 100rpx;
+  background-color: #FFFFFF;
+  margin: 10px 0 ;
+  flex-direction: row;
+  justify-content: space-around;
+}
