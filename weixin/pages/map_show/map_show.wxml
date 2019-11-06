@@ -1,0 +1,3 @@
+<map id="map" open-type='getLocation' markers="{{markers}}"
+scale="18"  style="width: 100%; height: 300px;" bindtap="click">
+</map>

@@ -1,13 +1,19 @@
-<!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
+<view wx:if="{{isHide}}">
+ <view wx:if="{{canIUse}}" >
+  <view class='header'>
+   健身super
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
+  <movable-area style="height: 600px; width: 370px;">
+    <movable-view style="height: 400px; width: 400px; " x="{{x}}" y="{{y}}" direction="all">
+  <button class='bottom'  open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="bindGetUserInfo">
+   <image class="img" src="../index/9.gif" > </image>
+  </button>
+
+    </movable-view>
+  </movable-area>
+  
+  
+ </view>
+ <view wx:else>请升级微信版本</view>
 </view>
+

@@ -1,0 +1,22 @@
+<view class="classname" bindtap="openMap">
+
+<button>
+
+测试微信小程序定位
+</button>
+
+
+
+</view>
+
+<view>
+<button open-type="getLocationg"  bindtap="Map">
+
+测试微信小程序定位
+</button>
+</view>
+
+<view class="userinfo">
+      <open-data type="userAvatarUrl" class="img" ></open-data>
+        <image class="userinfo-avatar" ></image>
+</view>

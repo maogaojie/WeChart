@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="section">
+ 
+  <movable-area style="height: 200px; width: 200px; background: red;">
+    <movable-view style="height: 50px; width: 50px; background: blue;" x="{{x}}" y="{{y}}" direction="all">
+  
+    </movable-view>
+  </movable-area>
+  <view class="btn-area">
+    <button size="mini" bindtap="tap">有事没事点点我</button>
+ 
+  </view>
+</view>
+
+

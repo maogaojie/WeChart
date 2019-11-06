@@ -1,13 +1,34 @@
 {
   "pages": [
     "pages/index/index",
+    
+    "pages/map_show/map_show",
+    "pages/maps/maps",
+    
+    "pages/Requests/Requests",
+    
+    "pages/DL/DL",
+    "pages/shouye/shouye",
+    "pages/index/9.gif",
+    "pages/maps/+.png",
+    "pages/maps/-.png",
+  
+    
     "pages/logs/logs"
   ],
+  
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
   },
+"permission": {
+  "scope.userLocation": {
+    "desc": "获取当前地理位置"
+  }
+},
+
   "sitemapLocation": "sitemap.json"
+
 }
