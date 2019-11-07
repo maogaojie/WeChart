@@ -1,1 +1,22 @@
 /* pages/plan/plan.wxss */
+
+.avatar{
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.header {
+border-radius: 50%;
+overflow: hidden;
+width: 120rpx;
+height: 120rpx;
+position: relative;
+background: yellow;
+left: 40rpx;
+top: -92rpx;
+}
+.userInfo {
+border-radius: 50%;
+width: 120rpx;
+height: 120rpx;
+}

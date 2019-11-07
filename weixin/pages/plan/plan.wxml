@@ -4,3 +4,14 @@
 <text>我的计划</text>
 
 </view>
+
+<!-- 
+<view class="avatar">
+      <open-data type="userAvatarUrl" class="img" ></open-data>
+        <image class="userinfo-avatar" ></image>
+    </view> -->
+
+
+<view class='header'>
+<open-data class='userInfo' type="userAvatarUrl" bindgetuserinfo="onGotUserInfo"></open-data>
+</view>

@@ -74,9 +74,6 @@ Page({
           })
           }
       });
-
-
-      
       //授权成功后,通过改变 isHide 的值，让实现页面显示出来，把授权页面隐藏起来
       that.setData({
         isHide: false
@@ -84,8 +81,8 @@ Page({
     } else {
       //用户按了拒绝按钮
       wx.showModal({
-        title: '警告',
-        content: '您点击了拒绝授权，将无法进入小程序，请授权之后再进入!!!',
+        title: '抱歉',
+        content: '您点击了拒绝授权，将无法进入小程序，请授权之后再进入!',
         showCancel: false,
         confirmText: '返回授权',
         success: function (res) {
@@ -97,11 +94,5 @@ Page({
       });
     }
   },
-  zouni: function () {
-    setTimeout(function () {
-      wx.navigateTo({
-        url: '../dimal/dimal'
-      })
-    }, 3000)
-  }
+
 })

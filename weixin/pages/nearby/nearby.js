@@ -5,13 +5,23 @@ Page({
    * 页面的初始数据
    */
   data: {
-    imgUrls: ['/static/imgs/1.png', '/static/imgs/1.png', '/static/imgs/1.png', '/static/imgs/1.png'
+    imgUrls: ['/static/imgs/i1.jpg', '/static/imgs/i2.jpg', '/static/imgs/i3.jpg'
     ],
     
     indicatorDots: true,
     autoplay: true,
-    interval: 2000,
-    duration: true,
+    interval: 5000,
+    duration: 800,
+  },
+  Map: function () {
+    wx.getLocation({
+      success: function (res) {
+        console.log(res.latitude, res.longitude)
+        wx.navigateTo({
+          url: '../dimal/dimal'
+        })
+      },
+    })
   },
   room_detail: function (opt) {
     wx.navigateTo({

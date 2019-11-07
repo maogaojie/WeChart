@@ -1,6 +1,7 @@
 /**app.wxss**/
 page{
-  background: #F8F8FF
+  background: #FFFFFF;
+  font-family: 'Avalon T.';
 }
 .container {
   height: 100%;

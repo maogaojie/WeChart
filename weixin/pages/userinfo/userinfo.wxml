@@ -1,12 +1,24 @@
-<!--pages/userinfo/userinfo.wxml-->
-<view >
-<image class="banner" mode='widthFix' src="/static/imgs/bguser.png"> </image>
+  <view class="view_bannerbg">
+    <view class="banner">
+      <image class="banner_img"  mode='widthFix' src="/static/imgs/bguser3.png">
+      </image>
+    </view>
+    <view class='banner_view'>
+      <image class="banner_img2" mode='widthFix' src="/static/imgs/bguser2.png"></image>
+    </view>
 
-<!-- <view class="avatar">
-      <open-data type="userAvatarUrl" class="img" ></open-data>
-        <image class="userinfo-avatar" ></image>
-</view> -->
-</view>
+    <view class="avatar">
+      <open-data type="userAvatarUrl" class="userinfo-avatar"  mode='cover' ></open-data>
+    </view>
+
+    <view class="username">
+    
+    <open-data type="userNickName" lang="zh_CN" class='font_name'></open-data>
+    
+    </view>
+  </view>
+
+
 
 
 
@@ -53,7 +65,7 @@
 </view>
 
 
-<view class="avatar">
-      <open-data type="userAvatarUrl" class="img" ></open-data>
-        <image class="userinfo-avatar" ></image>
-</view>
+
+
+
+

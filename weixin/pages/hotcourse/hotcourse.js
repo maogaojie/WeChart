@@ -5,9 +5,38 @@ Page({
    * 页面的初始数据
    */
   data: {
+    imgUrls: ['/static/imgs/i1.jpg', '/static/imgs/i2.jpg', '/static/imgs/i3.jpg'
+    ],
 
+    indicatorDots: true,
+    autoplay: true,
+    interval: 5000,
+    duration: 800,
+    navbarActiveIndex: 0,
+    navbarTitle: [
+      "体能",
+      "舞蹈",
+      "搏击",
+      "静态",
+      '蹦床'
+    ]
   },
 
+  onNavBarTap: function (event) {
+    // 获取点击的navbar的index
+    let navbarTapIndex = event.currentTarget.dataset.navbarIndex
+    // 设置data属性中的navbarActiveIndex为当前点击的navbar
+    this.setData({
+      navbarActiveIndex: navbarTapIndex
+    })
+  },
+
+  onBindAnimationFinish: function ({ detail }) {
+    // 设置data属性中的navbarActiveIndex为当前点击的navbar
+    this.setData({
+      navbarActiveIndex: detail.current
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

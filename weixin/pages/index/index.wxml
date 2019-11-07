@@ -1,10 +1,10 @@
 <view class="nav-list">
-        <navigator class="nav-item" url="#" >
-            <image class="item-center icon" bindtap="Map" src="/static/imgs/b2.png" ></image>
+        <navigator class="nav-item" url="../nearby/nearby" >
+            <image class="item-center icon"  src="/static/imgs/i2.jpg" ></image>
    
         </navigator>
         <navigator class="nav-item" url="../hotcourse/hotcourse">
-            <image class="item-center icon" src="/static/imgs/i2.jpg">
+            <image class="item-center icon" src="/static/imgs/b2.png">
             </image>
 
         </navigator>

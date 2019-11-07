@@ -10,62 +10,77 @@
 </view>
 
 <view class='view_tiem1'>
-<button bindtap="back">返回主页</button>
-<button bindtap="openmap">查看路线</button>
+<text></text>
+<image class="view_img" src="/static/imgs/l1.png" bindtap="Map"></image>
 </view>
 
 
-<view style="width:375px;height:107px;background-color:rgb(255,255,255);margin-top:5px;margin-bottom:5px;margin-left:auto;margin-right:auto" class="view_item">
-
-  <view style="padding:40px;" bindtap="room_detail" >
-  <text >新天地</text>
+<view  class="view_item" bindtap="room_detail">
+  <image src="/static/imgs/room.png"  class="view_img1" ></image>
+  <view class="view_text">
+  <view class="view_text1">
+    <text >New Air</text>
+    <text >新 天 地</text>
   </view>
-  <image src="/static/imgs/u1.png" style="width:40px;height:40px;padding:35px"></image>
-
-</view>
-
-
-
-<view style="width:375px;height:107px;background-color:rgb(255,255,255);margin-top:5px;margin-bottom:5px;margin-left:auto;margin-right:auto" class="view_item">
-
-  <view style="padding:40px;" bindtap="room_detail" >
-  <text >王府井</text>
+  
   </view>
-  <image src="/static/imgs/u1.png" style="width:40px;height:40px;padding:35px"></image>
+  
 
 </view>
 
 
-
-
-<view style="width:375px;height:107px;background-color:rgb(255,255,255);margin-top:5px;margin-bottom:5px;margin-left:auto;margin-right:auto" class="view_item">
-
-  <view style="padding:40px;" bindtap="room_detail" >
-  <text >北海路</text>
+<view  class="view_item" bindtap="room_detail">
+  <image src="/static/imgs/room.png"  class="view_img1" ></image>
+  <view class="view_text">
+  <view class="view_text1">
+  
+  <text>Wang FJ</text>
+  <text >王 府 井</text>
   </view>
-  <image src="/static/imgs/u1.png" style="width:40px;height:40px;padding:35px"></image>
+  
+  </view>
+  
 
 </view>
 
 
 
+<view  class="view_item" bindtap="room_detail">
+  <image src="/static/imgs/room.png"  class="view_img1" ></image>
+  <view class="view_text">
 
-<view style="width:375px;height:107px;background-color:rgb(255,255,255);margin-top:5px;margin-bottom:5px;margin-left:auto;margin-right:auto" class="view_item">
-
-  <view style="padding:40px;" bindtap="room_detail" >
-  <text >三里屯</text>
+  <view class="view_text1">
+   <text >Xiong An</text>
+  <text >雄安新区</text>
+  
   </view>
-  <image src="/static/imgs/u1.png" style="width:40px;height:40px;padding:35px"></image>
+  
+  </view>
+  
 
 </view>
-
-
-
-<view style="width:375px;height:107px;background-color:rgb(255,255,255);margin-top:5px;margin-bottom:5px;margin-left:auto;margin-right:auto" class="view_item">
-
-  <view style="padding:40px;" bindtap="room_detail" >
-  <text >淮海路</text>
+<view  class="view_item" bindtap="room_detail">
+  <image src="/static/imgs/room.png"  class="view_img1" ></image>
+  <view class="view_text">
+    <view class="view_text1">
+    
+     <text>Bei Hai</text>
+        <text >北 海 路</text>
+    </view>
+        
   </view>
-  <image src="/static/imgs/u1.png" style="width:40px;height:40px;padding:35px"></image>
+  
+
+</view>
+<view  class="view_item" bindtap="room_detail">
+  <image src="/static/imgs/room.png"  class="view_img1" ></image>
+  <view class="view_text">
+    <view class="view_text1">
+       <text>Old Street</text>
+      <text >老   街</text>
+    </view>
+ 
+  </view>
+  
 
 </view>

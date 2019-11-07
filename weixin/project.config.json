@@ -90,8 +90,36 @@
 				},
 				{
 					"id": 6,
-					"name": "pages/vido/vido",
-					"pathName": "pages/vido/vido",
+					"name": "pages/identify/identify",
+					"pathName": "pages/identify/identify",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/index/index",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/hotcourse/hotcourse",
+					"pathName": "pages/hotcourse/hotcourse",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/plan/plan",
+					"pathName": "pages/plan/plan",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/identify/identify",
+					"pathName": "pages/identify/identify",
 					"query": "",
 					"scene": null
 				}

@@ -1,53 +1,91 @@
 <!--pages/hotcourse/hotcourse.wxml-->
 <!--pages/private_index/private_index.wxml-->
+<view class="title">
+<view class="title_container">
+  <text class="title_text">新课发布</text>
+  <image class="title_fire" src="/static/imgs/fire.png"></image>
+</view>
+</view>
 
-<view class="view_item">
 
-<text>团课</text>
+<view id='container'>
+
+<swiper interval="{{interval}}" duration="{{duration}}" autoplay="ture" indicatorDots="{{indicatorDots}}" style="margin-left:0;margin-right:0">
+<swiper-item wx:for='{{imgUrls}}' wx:key='unique'>
+<image src="{{item}}" class="swiper-item"></image>
+</swiper-item>
+</swiper>
+</view>
+
+
+<view class="title1">
+<view class="title_container1">
+  <text class="title_text">课程分类</text>
 
 </view>
-<view class="nav-list">
-        <navigator class="nav-item" url="../public_detail/public_detail">
-            <image class="item-center icon" src="/static/imgs/u2.png"></image>
-            <view class="item-center text">普拉提</view>
-            <view class="item-center arrow"> > </view>
-        </navigator>
-        <navigator class="nav-item" url="../public_detail/public_detail">
-            <image class="item-center icon" src="/static/imgs/u2.png"></image>
-            <view class="item-center text">普拉提</view>
-            <view class="item-center arrow"> > </view>
-        </navigator>
-        <navigator class="nav-item" url="../public_detail/public_detail">
-            <image class="item-center icon" src="/static/imgs/u2.png"></image>
-            <view class="item-center text">普拉提</view>
-            <view class="item-center arrow"> > </view>
-        </navigator>
+</view>
 
+
+ <view class="movie-container">
+    <!-- 导航栏 -->
+    <view class="navbar">
+      <block wx:for="{{navbarTitle}}" wx:key="index">
+
+      <view class="navbar-item {{navbarActiveIndex === index ? 'navbar-item-active' : ''}}" data-navbar-index="{{index}}" catchtap="onNavBarTap">
+               <text>{{item}}</text>
+             </view>
+          </block>
 
   </view>
 
-<view class="view_item">
+  <view class="movie-content-wrapper">
 
-<text>私教课</text>
+    <swiper class="swiper" current="{{navbarActiveIndex}}" bindanimationfinish="onBindAnimationFinish">
+
+      <swiper-item wx:for="{{navbarTitle}}" wx:key="index">
+
+        <scroll-view scroll-y="{{true}}" class='scroll_data'>
+
+
+          <navigator class="nav-item" url="../public_detail/public_detail">
+            <image class="item-center icon" src="/static/imgs/u2.png"></image>
+            <view class="item-center text">普拉提{{item}}</view>
+            <view class="item-center arrow"> > </view>
+        </navigator>
+        <navigator class="nav-item" url="../public_detail/public_detail">
+            <image class="item-center icon" src="/static/imgs/u2.png"></image>
+            <view class="item-center text">普拉提{{item}}</view>
+            <view class="item-center arrow"> > </view>
+        </navigator>
+        <navigator class="nav-item" url="../public_detail/public_detail">
+            <image class="item-center icon" src="/static/imgs/u2.png"></image>
+            <view class="item-center text">普拉提{{item}}</view>
+            <view class="item-center arrow"> > </view>
+        </navigator>
+        <navigator class="nav-item" url="../public_detail/public_detail">
+            <image class="item-center icon" src="/static/imgs/u2.png"></image>
+            <view class="item-center text">普拉提{{item}}</view>
+            <view class="item-center arrow"> > </view>
+        </navigator>
+
+        </scroll-view>
+
+      </swiper-item>
+
+    </swiper>
+
+  </view>
 
 </view>
-        <navigator class="nav-item" url="../myAddress/myAddress">
-            <image class="item-center icon" src="/static/imgs/u4.png"></image>
-            <view class="item-center text">胸肌训练入门1</view>
-            <view class="item-center arrow"> > </view>
-        </navigator>
 
 
-        <navigator class="nav-item" url="../myAddress/myAddress">
-            <image class="item-center icon" src="/static/imgs/u4.png"></image>
-            <view class="item-center text">胸肌训练入门1</view>
-            <view class="item-center arrow"> > </view>
-        </navigator>
-        <navigator class="nav-item" url="../myAddress/myAddress">
-            <image class="item-center icon" src="/static/imgs/u4.png"></image>
-            <view class="item-center text">胸肌训练入门1</view>
-            <view class="item-center arrow"> > </view>
-        </navigator>
-     
-    
-        
+
+
+
+
+
+
+
+
+
+  

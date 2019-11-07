@@ -5,7 +5,7 @@
 }
 
 .nav-item {
-    height: 450rpx;
+    height: 425rpx;
     background-color: white;
     display: flex;
     padding: 0;
@@ -21,7 +21,7 @@
 
 .nav-item .icon {
     margin: 0x;
-    height: 450rpx;
+    height: auto;
     width: 750rpx;
 }
 

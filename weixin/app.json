@@ -28,32 +28,26 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "iconPath": "static/imgs/index_off.png",
-        "selectedIconPath": "static/imgs/index_on.png",
+        "iconPath": "static/imgs/homepage_off.png",
+        "selectedIconPath": "static/imgs/homepage_on.png",
         "text": "首页"
       },
       {
         "pagePath": "pages/public_index/public_index",
-        "iconPath": "static/imgs/publicoff.png",
-        "selectedIconPath": "static/imgs/publicon.png",
-        "text": "团课"
-      },
-      {
-        "pagePath": "pages/private_index/private_index",
-        "iconPath": "static/imgs/privateoff.png",
-        "selectedIconPath": "static/imgs/privateon.png",
-        "text": "私教"
+        "iconPath": "static/imgs/time_off.png",
+        "selectedIconPath": "static/imgs/time_on.png",
+        "text": "约课"
       },
       {
         "pagePath": "pages/plan/plan",
-        "iconPath": "static/imgs/planoff.png",
-        "selectedIconPath": "static/imgs/planon.png",
+        "iconPath": "static/imgs/activity_off.png",
+        "selectedIconPath": "static/imgs/activity_on.png",
         "text": "计划"
       },
       {
         "pagePath": "pages/userinfo/userinfo",
-        "iconPath": "static/imgs/userinfooff.png",
-        "selectedIconPath": "static/imgs/userinfoon.png",
+        "iconPath": "static/imgs/people_off.png",
+        "selectedIconPath": "static/imgs/people_on.png",
         "text": "我的"
       }
     ]
