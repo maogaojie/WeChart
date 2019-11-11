@@ -1,0 +1,69 @@
+/* pages/test/test.wxss */
+
+.banner{
+  display: flex;
+  width: 90%;
+  margin: 5%;
+  height: 280rpx;
+  background-color: whitesmoke;
+}
+.view_table{
+  display: table;
+    width: 750rpx;
+
+}
+.view_row{
+  display: table-row;
+  border-bottom: 1px solid black;
+  line-height: 80rpx;
+}
+
+.view_row1{
+  display: table-row;
+  border-bottom: 1px solid black;
+  line-height: 100rpx;
+}
+
+.view_cell1{
+  display: table-cell;
+  width: 30%;
+
+}
+
+.view_cell2{
+  display: table-cell;
+
+}
+
+.day{
+  font-size: 25rpx;
+  font-weight: bold;
+  margin: 30rpx;
+}
+
+.train_num1{
+  color: green;
+  font-size: 50rpx;
+  font-weight: bold;
+  margin: 30rpx
+}
+
+.train_num2{
+  color: black;
+  font-size: 40rpx;
+  font-weight: bold;
+  margin: 30rpx 
+}
+.text_light{
+  font-size: 20rpx;
+  
+}
+
+
+
+
+.body{
+  display: flex;
+  background-color: whitesmoke;
+  
+}

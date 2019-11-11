@@ -1,0 +1,89 @@
+<!--pages/public_index/public_index.wxml-->
+<!--index.wxml-->
+<view id='container'>
+
+<swiper interval="{{interval}}" duration="{{duration}}" autoplay="ture" indicatorDots="{{indicatorDots}}" style="margin-left:0;margin-right:0">
+<swiper-item wx:for='{{imgUrls}}' wx:key='unique'>
+<image src="{{item}}" class="swiper-item"></image>
+</swiper-item>
+</swiper>
+</view>
+
+<view class='view_tiem1'>
+<text>{{city}}--{{district}}</text>
+<image class="view_img" src="/static/imgs/l1.png" bindtap="Map"></image>
+</view>
+
+<view  wx:for="{{store}}" wx:key="index">
+<view  class="view_item" bindtap="room_detail" id="{{item.id}}">
+  <image src="http://120.27.247.213:8000/media/{{item.image}}"  class="view_img1" ></image>
+  <view class="view_text">
+  <view class="view_text1">
+  <text >New Air</text>
+  <text >{{item.name}}</text>
+    <!-- <text >New Air</text> -->
+    <!-- <text >新 天 地</text> -->
+  </view>
+  
+  </view>
+  
+
+</view>
+</view>
+
+<!-- 
+<view  class="view_item" bindtap="room_detail">
+  <image src="/static/imgs/room.png"  class="view_img1" ></image>
+  <view class="view_text">
+  <view class="view_text1">
+  
+  <text>Wang FJ</text>
+  <text >王 府 井</text>
+  </view>
+  
+  </view>
+  
+
+</view>
+
+
+
+<view  class="view_item" bindtap="room_detail">
+  <image src="/static/imgs/room.png"  class="view_img1" ></image>
+  <view class="view_text">
+
+  <view class="view_text1">
+   <text >Xiong An</text>
+  <text >雄安新区</text>
+  
+  </view>
+  
+  </view>
+  
+
+</view>
+<view  class="view_item" bindtap="room_detail">
+  <image src="/static/imgs/room.png"  class="view_img1" ></image>
+  <view class="view_text">
+    <view class="view_text1">
+    
+     <text>Bei Hai</text>
+        <text >北 海 路</text>
+    </view>
+        
+  </view>
+  
+
+</view>
+<view  class="view_item" bindtap="room_detail">
+  <image src="/static/imgs/room.png"  class="view_img1" ></image>
+  <view class="view_text">
+    <view class="view_text1">
+       <text>Old Street</text>
+      <text >老   街</text>
+    </view>
+ 
+  </view>
+  
+
+</view> -->

@@ -1,0 +1,17 @@
+<view class="nav-list">
+        <navigator class="nav-item" url="../nearby/nearby" >
+            <image class="item-center icon"  src="/static/imgs/address.png" ></image>
+   
+        </navigator>
+        <navigator class="nav-item" url="../hotcourse/hotcourse">
+            <image class="item-center icon" src="/static/imgs/course.png">
+            </image>
+
+        </navigator>
+        <navigator class="nav-item" url="../vido/vido">
+            <image class="item-center icon" src="/static/imgs/video.png"></image>
+
+        </navigator>
+    </view>
+
+

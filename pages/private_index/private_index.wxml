@@ -1,0 +1,32 @@
+<view >
+
+<image mode="widthFix" class='banner' src='/static/imgs/cbanner2.png'></image>
+</view>
+        <navigator class="nav-item" url="../myAddress/myAddress">
+            <image class="item-center icon" src="/static/imgs/u4.png"></image>
+            <view class="item-center text">胸肌训练入门1</view>
+            <view class="item-center arrow"> > </view>
+        </navigator>
+
+
+        <navigator class="nav-item" url="../myAddress/myAddress">
+            <image class="item-center icon" src="/static/imgs/u4.png"></image>
+            <view class="item-center text">胸肌训练入门1</view>
+            <view class="item-center arrow"> > </view>
+        </navigator>
+        <navigator class="nav-item" url="../myAddress/myAddress">
+            <image class="item-center icon" src="/static/imgs/u4.png"></image>
+            <view class="item-center text">胸肌训练入门1</view>
+            <view class="item-center arrow"> > </view>
+        </navigator>
+        <navigator class="nav-item" url="../myAddress/myAddress">
+            <image class="item-center icon" src="/static/imgs/u4.png"></image>
+            <view class="item-center text">胸肌训练入门1</view>
+            <view class="item-center arrow"> > </view>
+        </navigator>
+        <navigator class="nav-item" url="../myAddress/myAddress">
+            <image class="item-center icon" src="/static/imgs/u4.png"></image>
+            <view class="item-center text">胸肌训练入门1</view>
+            <view class="item-center arrow"> > </view>
+        </navigator>
+        

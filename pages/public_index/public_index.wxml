@@ -1,0 +1,14 @@
+<view >
+
+<image mode="widthFix" style="position:fixed;top:0;z-index:'-1'"  class='banner' src='/static/imgs/cbanner1.png'></image>
+</view>
+
+    <view class="nav-list" >
+        <navigator wx:for="{{course}}" wx:key="index" class="nav-item" url="../public_detail/public_detail?id={{item.id}}">
+            <image class="item-center icon" src="http://120.27.247.213:8000/media/{{item.image}}"></image>
+            <view class="item-center text">{{item.name}}</view>
+            <view class="item-center arrow"> > </view>
+        </navigator>
+        
+
+  </view>

@@ -1,0 +1,41 @@
+<!-- <view wx:if="{{isHide}}">
+ <view wx:if="{{canIUse}}" >
+
+
+
+  <button class='bottom'  open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="bindGetUserInfo">
+   
+  </button>
+
+
+  
+  
+ </view>
+ <view wx:else>请升级微信版本</view>
+
+</view> -->
+
+
+
+<view wx:if="{{isHide}}">
+ <view wx:if="{{canIUse}}" >
+<view class="bg">
+
+<image class='bg img' src="/static/imgs/identify.png" > </image>
+
+<view class="bg button">
+
+  <button class='button_img' open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="bindGetUserInfo" >
+      <text class="button_text">点击进入
+      </text>
+      
+  </button>
+  <!-- <image class="button_img2" open-type="getUserInfo" lang="zh_CN" bindtap="bindGetUserInfo"  src='/static/imgs/button2.png'></image> -->
+</view>
+
+</view>
+
+ </view>
+ <view wx:else>请升级微信版本</view>
+
+</view> 

@@ -1,0 +1,9 @@
+/* pages/vido/vido.wxss */
+
+
+
+.vid{
+  width: 90%;
+  height: 350px;
+  margin: 50rpx 5% 0 5%;
+}

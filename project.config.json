@@ -1,0 +1,131 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"nodeModules": false,
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.9.1",
+	"appid": "wx3e01b136e25ff2b2",
+	"projectname": "weixin",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": 1,
+					"name": "pages/hotcourse/hotcourse",
+					"pathName": "pages/hotcourse/hotcourse",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 4,
+					"name": "pages/public_index/public_index",
+					"pathName": "pages/public_index/public_index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/userinfo/userinfo",
+					"pathName": "pages/userinfo/userinfo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 6,
+					"name": "pages/plan/plan",
+					"pathName": "pages/plan/plan",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/index/index",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/hotcourse/hotcourse",
+					"pathName": "pages/hotcourse/hotcourse",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/plan/plan",
+					"pathName": "pages/plan/plan",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/identify/identify",
+					"pathName": "pages/identify/identify",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 8,
+					"name": "pages/public_detail/public_detail",
+					"pathName": "pages/public_detail/public_detail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/test/test",
+					"pathName": "pages/test/test",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

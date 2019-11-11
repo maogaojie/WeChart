@@ -1,0 +1,17 @@
+
+
+
+<!-- <view wx:for="{{video_list}}" wx:key="{{index}}"> -->
+
+<view class="section tc">
+  
+  <video class="vid" autoplay='true' id="myVideo" src="{{url}}"loop="true" controls="false" show-play-btn="false"  object-fit="fill"
+  show-play-btn='false' auto-pause-if-navigate="false" auto-pause-if-open-native="false"></video>
+
+  <!-- <view class="btn-area">
+   
+    <input style=" margin: 5rpx 5% 0 5%; width:90%; height:50px; background:#c0c0c0;" bindblur="bindInputBlur"/>
+    <button style=" margin: 3rpx 5% 0 5%; width:90%; height:50px; background:#c0c0c0;" bindtap="bindSendDanmu">发送弹幕</button>
+  </view> -->
+</view>
+<!-- </view> -->

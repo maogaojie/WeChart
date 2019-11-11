@@ -1,0 +1,60 @@
+/* pages/room_detail/room_detail.wxss */
+.banner{
+  display: flex;
+  width:auto;
+}
+.address{
+  display: flex;
+  width: auto;
+  height: 100rpx;
+  background-color: #FFFFFF;
+}
+
+.ophours{
+  display: flex;
+  width: auto;
+  height: 220rpx;
+  background-color: #FFFFFF;
+  margin:25rpx 0;
+}
+
+.private{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 880rpx;
+  background-color: #FFFFFF;
+  margin:25rpx 0;
+  
+}
+
+.image_view{
+  display: flex;
+  width:100%;
+  position: relative;
+  justify-content: center;
+  margin: 8rpx 0 ;
+  
+
+}
+.corclass{
+  display: flex;
+  width: auto;
+  height: 100rpx;
+  background-color: #FFFFFF;
+  margin:25rpx 0;
+}
+.imgdetail{
+  display: flex;
+  width: 700rpx;
+  height: 130px;
+  
+}
+
+.cordetail{
+  display: flex;
+  width: auto;
+  height: 500rpx;
+  background-color: #FFFFFF;
+  margin:25rpx 0;
+}
