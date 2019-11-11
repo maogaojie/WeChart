@@ -8,7 +8,7 @@
 }
 .title_container{
   display: flex;
-  width: 30%;
+  width: 100%;
   margin-left: 5%;
   margin-top:5%; 
   margin-bottom:5%; 
@@ -16,7 +16,7 @@
   
 .title_container1{
   display: flex;
-  width: 30%;
+  width: 40%;
   margin-left: 5%;
   margin-top:1%; 
 }
@@ -30,7 +30,7 @@
   display: flex;
   width: 30px;
   height: 30px;
-  /* margin: 3px; */
+  /* padding: 30%; */
 }
 .container{
   display: flex;
@@ -89,7 +89,6 @@
 .navbar-item-active{
   transition: all 0.3s;
   border-bottom: 5px solid #494949;
-  /* border-bottom-width: 22px; */
 
   color: #494949;
 }

@@ -47,30 +47,9 @@
 			"current": -1,
 			"list": [
 				{
-					"id": -1,
-					"name": "pages/room_detail/room_detail",
-					"pathName": "pages/room_detail/room_detail",
-					"query": "",
-					"scene": null
-				},
-				{
 					"id": 1,
 					"name": "pages/hotcourse/hotcourse",
 					"pathName": "pages/hotcourse/hotcourse",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/public_detail/public_detail",
-					"pathName": "pages/public_detail/public_detail",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/nearby/nearby",
-					"pathName": "pages/nearby/nearby",
 					"query": "",
 					"scene": null
 				},
@@ -90,8 +69,8 @@
 				},
 				{
 					"id": 6,
-					"name": "pages/identify/identify",
-					"pathName": "pages/identify/identify",
+					"name": "pages/plan/plan",
+					"pathName": "pages/plan/plan",
 					"query": "",
 					"scene": null
 				},
@@ -120,6 +99,20 @@
 					"id": -1,
 					"name": "pages/identify/identify",
 					"pathName": "pages/identify/identify",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 8,
+					"name": "pages/public_detail/public_detail",
+					"pathName": "pages/public_detail/public_detail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/test/test",
+					"pathName": "pages/test/test",
 					"query": "",
 					"scene": null
 				}

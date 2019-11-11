@@ -4,6 +4,12 @@
     width: 100%;
 }
 
+.nav-list{
+  padding-top:31%;
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+}
 .nav-item {
     height: 80px;
     background-color: white;

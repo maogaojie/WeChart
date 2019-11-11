@@ -1,0 +1,58 @@
+<!--pages/test/test.wxml-->
+
+<view class='main_container'>
+
+<!-- 顶部标签 -->
+<view class="banner">
+  <view class="view_table">
+
+    <view class="view_row">
+      <text class="day">11月上课</text>
+    </view>
+    <view class="view_row1" >
+        <view class="view_cell1">
+            <text class="train_num1">0</text>
+        </view>
+        <view class="view_cell2">
+            <text class='text_light'>训练（分钟）</text>
+        </view>
+    </view> 
+  
+    <view class="view_row" >
+        <view class="view_cell1">
+            <text class="train_num2">0</text>
+        </view>
+        <view class="view_cell2">
+            <text class='text_light'>完成（分钟）</text>
+        </view>
+
+        <view class="view_cell1">
+            <text class="train_num2">0</text>
+        </view>
+        <view class="view_cell2">
+            <text class='text_light'>完成（分钟）</text>
+        </view>
+    </view> 
+
+  </view>
+
+</view>
+
+<!-- 中部内容 -->
+
+<view class="body">
+  <view class='body_title'>
+    <text class='title_style'> 我的训练 </text>
+      
+  </view>
+
+  <view>
+  
+  
+  </view>
+
+
+</view>
+
+
+</view>

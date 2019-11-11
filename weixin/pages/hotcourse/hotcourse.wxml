@@ -9,7 +9,6 @@
 
 
 <view id='container'>
-
 <swiper interval="{{interval}}" duration="{{duration}}" autoplay="ture" indicatorDots="{{indicatorDots}}" style="margin-left:0;margin-right:0">
 <swiper-item wx:for='{{imgUrls}}' wx:key='unique'>
 <image src="{{item}}" class="swiper-item"></image>
@@ -18,16 +17,16 @@
 </view>
 
 
+<!-- 课程分类标题 -->
 <view class="title1">
 <view class="title_container1">
   <text class="title_text">课程分类</text>
-
 </view>
 </view>
 
 
+<!-- 导航栏 -->
  <view class="movie-container">
-    <!-- 导航栏 -->
     <view class="navbar">
       <block wx:for="{{navbarTitle}}" wx:key="index">
 

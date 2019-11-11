@@ -36,7 +36,7 @@ Component({
   methods: {
     tiaotime(e) {
       let data = e.detail.value.split("-")
-      var d = new Date(Number(data[0]), Number(data[1]) - 1, Number(data[2]));
+      var d = new Date(Number(data[0]), Number(data[1]) / 1, Number(data[2]));
       this.setData({
         dateList: []
       })
@@ -66,10 +66,10 @@ Component({
       this.setData({
         swiperCurrent: 5,
         dateCurrent: d,
-        dateCurrentStr: d.getFullYear() + '-' + month + '-' + day,
+        dateCurrentStr: d.getFullYear() + '/' + month + '/' + day,
         dateMonth: month + '月',
         dateYear: year + '年',
-        dateCurrentStr: year + "-" + month + "-" + day,
+        dateCurrentStr: year + "/" + month + "/" + day,
       });
     },
     // 获取这周从周日到周六的日期
@@ -88,7 +88,7 @@ Component({
 
         d.days.push({
           'day': day,
-          'id': dd.getFullYear() + '-' + month + '-' + day,
+          'id': dd.getFullYear() + '/' + month + '/' + day,
           'ids': dd.getFullYear() + ',' + month + ',' + day,
         });
       }
@@ -182,11 +182,11 @@ Component({
     // 获得日期字符串
     getDateStr: function (arg) {
       if (utils.type(arg) == 'array') {
-        return arr[0] + '-' + arr[1] + '-' + arr[2] + ' 00:00:00';
+        return arr[0] + '/' + arr[1] + '/' + arr[2] + ' 00:00:00';
       } else if (utils.type(arg) == 'date') {
-        return arg.getFullYear() + '-' + (arg.getMonth() + 1) + '-' + arg.getDate() + ' 00:00:00';
+        return arg.getFullYear() + '/' + (arg.getMonth() + 1) + '/' + arg.getDate() + ' 00:00:00';
       } else if (utils.type(arg) == 'object') {
-        return arg.year + '-' + arg.month + '-' + arg.day + ' 00:00:00';
+        return arg.year + '/' + arg.month + '/' + arg.day + ' 00:00:00';
       }
     },
 

@@ -1,6 +1,6 @@
 /**app.wxss**/
 page{
-  background: #FFFFFF;
+  background: whitesmoke;
   font-family: 'Avalon T.';
 }
 .container {

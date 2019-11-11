@@ -12,7 +12,8 @@
     "pages/room_detail/room_detail",
     "pages/public_detail/public_detail",
     "pages/dimal/dimal",
-    "pages/vido/vido"
+    "pages/vido/vido",
+    "pages/test/test"
   ],
   "window": {
     "backgroundTextStyle": "dark",
@@ -21,7 +22,7 @@
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
-    "color": "#FFFFFF",
+    "color": "#9E9E9E",
     "selectedColor": "#9E9E9E",
     "borderStyle": "white",
     "backgroundColor": "#FFFFFF",

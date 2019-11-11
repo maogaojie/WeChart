@@ -1,13 +1,26 @@
 <view class="bannerview">
-<image mode='widthFix' class="banner" src='/static/imgs/dark.png'></image>
+<image mode='widthFix'  class="banner" src='/static/imgs/dark.png'></image>
 </view>
+
+
+
+
 
 
 <view class="view_item">
 
 <navigator class="nav-item" url="#">
-            <view class="item-center text">2月18日</view>
-            <view class="item-center text">王府井</view>
+            <view class="item-center text" >
+              <image style="width:30rpx;height:30rpx;padding:20rpx" src="/static/imgs/time_off.png"></image>
+              2月18日
+            
+            
+            </view>
+            <view class="item-center text" style="margin-left:200rpx;">
+            <image style="width:30rpx;height:30rpx;padding:20rpx" src="/static/imgs/addicon.png"></image>
+            王府井
+            
+            </view>
 
             <view class="item-center arrow"> > </view>
 </navigator>
@@ -20,7 +33,11 @@
 
 <navigator class="nav-item" url="#">
 
-            <view class="item-center text">阿泽</view>
+            <view class="item-center text">
+                          
+            <image style="width:100rpx;height:100rpx;padding:20rpx" src="/static/imgs/huge.png"></image>
+
+            阿泽</view>
             <view class="item-center arrow"> > </view>
 </navigator>
 
@@ -30,7 +47,20 @@
 <view class="view_item">
 
 <navigator class="nav-item1" url="#">
-            <view class="item-center text">课程说明</view>
+            <view style="display:flex;flex-direction:column;">
+                
+                 <view style="margin:15rpx;font-size:40rpx;font-weight:blod">
+                 课程说明
+                 </view>
+                 
+                 <view style="margin:15rpx;font-size:30rpx;">
+                 ballal
+                 </view>
+                 
+                
+                
+                  
+            </view>
 </navigator>
 
 </view>
@@ -38,7 +68,15 @@
 <view class="view_item">
 
 <navigator class="nav-item1" url="#">
-            <view class="item-center text">训练效果</view>
+            <view class="display:flex;flex-direction:column;">
+            <view style="margin:15rpx;font-size:40rpx;font-weight:blod">
+                 训练效果
+                 </view>
+                 
+                 <view style="margin:15rpx;font-size:30rpx;">
+                 ballal
+                 </view>
+            </view>
 </navigator>
 
 </view>
@@ -47,7 +85,16 @@
 <view class="view_item">
 
 <navigator class="nav-item1" url="#">
-            <view class="item-center text">适合人群</view>
+            <view class="display:flex;flex-direction:column;">
+            <view style="margin:15rpx;font-size:40rpx;font-weight:blod">
+                 适合人群
+                 </view>
+                 
+                 <view style="margin:15rpx;font-size:30rpx;">
+                 ballal
+                 </view>
+                 
+            </view>
 </navigator>
 
 </view>
@@ -56,7 +103,24 @@
 <view class="view_item">
 
 <navigator class="nav-item1" url="#">
-            <view class="item-center text">FAQ</view>
+            <view class="display:flex;flex-direction:column;">
+            <view style="margin:15rpx;font-size:40rpx;font-weight:blod">
+                 FAQ
+                 </view>
+                 
+                 <view style="margin:15rpx;font-size:30rpx;">
+                 ballal
+                 </view>
+                 </view>
 </navigator>
 
+
+
+</view>
+
+
+
+<view class='view_button' >
+
+  <image mode="widthFix" style="position:fixed;z-index:'1000';bottom:0;width:100%" src="/static/imgs/getcourse.png"></image>
 </view>
