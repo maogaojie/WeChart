@@ -12,6 +12,7 @@
   margin: 15px 15px;
   height: 150rpx;
   width: auto;
+  border-radius: 18rpx;
 
 }
 

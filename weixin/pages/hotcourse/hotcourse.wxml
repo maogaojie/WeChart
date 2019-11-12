@@ -49,22 +49,22 @@
           <navigator class="nav-item" url="../public_detail/public_detail">
             <image class="item-center icon" src="/static/imgs/u2.png"></image>
             <view class="item-center text">普拉提{{item}}</view>
-            <view class="item-center arrow"> > </view>
+            <view class="item-center arrow">  </view>
         </navigator>
         <navigator class="nav-item" url="../public_detail/public_detail">
             <image class="item-center icon" src="/static/imgs/u2.png"></image>
             <view class="item-center text">普拉提{{item}}</view>
-            <view class="item-center arrow"> > </view>
+            <view class="item-center arrow">  </view>
         </navigator>
         <navigator class="nav-item" url="../public_detail/public_detail">
             <image class="item-center icon" src="/static/imgs/u2.png"></image>
             <view class="item-center text">普拉提{{item}}</view>
-            <view class="item-center arrow"> > </view>
+            <view class="item-center arrow">  </view>
         </navigator>
         <navigator class="nav-item" url="../public_detail/public_detail">
             <image class="item-center icon" src="/static/imgs/u2.png"></image>
             <view class="item-center text">普拉提{{item}}</view>
-            <view class="item-center arrow"> > </view>
+            <view class="item-center arrow"> </view>
         </navigator>
 
         </scroll-view>

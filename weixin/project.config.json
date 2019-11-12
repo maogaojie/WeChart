@@ -14,7 +14,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.9.1",
-	"appid": "wx3e01b136e25ff2b2",
+	"appid": "wxc0ea18080fb3f3fe",
 	"projectname": "weixin",
 	"debugOptions": {
 		"hidedInDevtools": []
@@ -110,9 +110,30 @@
 					"scene": null
 				},
 				{
+					"id": 9,
+					"name": "pages/coupons/coupons",
+					"pathName": "pages/coupons/coupons",
+					"query": "",
+					"scene": null
+				},
+				{
 					"id": -1,
-					"name": "pages/test/test",
-					"pathName": "pages/test/test",
+					"name": "pages/coach/coach",
+					"pathName": "pages/coach/coach",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/vido/vido",
+					"pathName": "pages/vido/vido",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/nearby/nearby",
+					"pathName": "pages/nearby/nearby",
 					"query": "",
 					"scene": null
 				}

@@ -11,26 +11,26 @@
     </view>
     <view class="view_row1" >
         <view class="view_cell1">
-            <text class="train_num1">0</text>
+            <text class="train_num1">0%</text>
         </view>
         <view class="view_cell2">
-            <text class='text_light'>训练（分钟）</text>
+            <text class='text_light'>训练</text>
         </view>
     </view> 
   
     <view class="view_row" >
         <view class="view_cell1">
-            <text class="train_num2">0</text>
+            <text class="train_num2">0%</text>
         </view>
         <view class="view_cell2">
-            <text class='text_light'>完成（分钟）</text>
+            <text class='text_light'>完成</text>
         </view>
 
         <view class="view_cell1">
-            <text class="train_num2">0</text>
+            <text class="train_num2">0%</text>
         </view>
         <view class="view_cell2">
-            <text class='text_light'>完成（分钟）</text>
+            <text class='text_light'>完成</text>
         </view>
     </view> 
 
@@ -74,22 +74,22 @@
           <navigator class="nav-item" url="../public_detail/public_detail">
             <image class="item-center icon" src="/static/imgs/u2.png"></image>
             <view class="item-center text">桑巴{{item}}</view>
-            <view class="item-center arrow"> > </view>
+            <view class="item-center arrow">  </view>
         </navigator>
         <navigator class="nav-item" url="../public_detail/public_detail">
             <image class="item-center icon" src="/static/imgs/u2.png"></image>
             <view class="item-center text">桑巴{{item}}</view>
-            <view class="item-center arrow"> > </view>
+            <view class="item-center arrow">  </view>
         </navigator>
 <navigator class="nav-item" url="../public_detail/public_detail">
             <image class="item-center icon" src="/static/imgs/u2.png"></image>
             <view class="item-center text">桑巴{{item}}</view>
-            <view class="item-center arrow"> > </view>
+            <view class="item-center arrow">  </view>
         </navigator>
         <navigator class="nav-item" url="../public_detail/public_detail">
             <image class="item-center icon" src="/static/imgs/u2.png"></image>
             <view class="item-center text">桑巴{{item}}</view>
-            <view class="item-center arrow"> > </view>
+            <view class="item-center arrow">  </view>
         </navigator>
 
         </scroll-view>

@@ -1,0 +1,36 @@
+<view class="metainfo-area">
+    <text class="tag" data-tag="教练"></text>
+    <view class="up-list">
+    <!-- wx-for 遍历这个block -->
+      <block >
+        <view class="up-list-item">
+          <navigator url="">
+             <view class="item-desc-container">
+                <!-- <text>{{index}}</text> -->
+                <image class="item-img" src="/static/imgs/huge.png"></image>
+                <view class="info-view">
+                  <text class="title">test title</text>
+                  <view class="content"></view>
+                  <view class="item-footer">
+                    <view class="item-footer-author">
+                      <image src="/static/imgs/u1.png" class="avatar"></image>
+                      <text>test title author</text>
+                    </view>
+                    <view class="item-footer-view">
+                      <image src="./icon/view.png" class="view"></image>
+                      <text>test icon </text>
+                    </view>
+                  </view>
+                </view>
+             </view>
+           </navigator>
+       </view>
+      </block>
+      <!-- <view class="loading-container">
+        <view class="loading  {{done ? 'hide' : ''}}"></view>
+        <text class="{{done ? '' : 'hide'}}">只有这些啦~</text>
+      </view> -->
+      <!-- <import src="../../common/loading.wxml"/>
+      <template is="loading" data="{{done, text:'只有这些啦~'}}"/> -->
+    </view>
+  </view>

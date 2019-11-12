@@ -1,4 +1,4 @@
-// pages/userinfo/userinfo.js
+// pages/myorders/myorders.js
 Page({
 
   /**
@@ -14,11 +14,7 @@ Page({
   onLoad: function (options) {
 
   },
-  to_coupons:function(){
-    wx.navigateTo({
-      url: '../coupons/coupons',
-    })
-  },
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

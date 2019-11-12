@@ -1,24 +1,48 @@
-// pages/userinfo/userinfo.js
+// pages/hotcourse/hotcourse.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    imgUrls: ['/static/imgs/i1.jpg', '/static/imgs/i2.jpg', '/static/imgs/i3.jpg'
+    ],
 
+    indicatorDots: true,
+    autoplay: true,
+    interval: 5000,
+    duration: 800,
+    navbarActiveIndex: 0,
+    navbarTitle: [
+      "可使用",
+      "已使用",
+      "已过期",
+
+    ]
   },
 
+  onNavBarTap: function (event) {
+    // 获取点击的navbar的index
+    let navbarTapIndex = event.currentTarget.dataset.navbarIndex
+    // 设置data属性中的navbarActiveIndex为当前点击的navbar
+    this.setData({
+      navbarActiveIndex: navbarTapIndex
+    })
+  },
+
+  onBindAnimationFinish: function ({ detail }) {
+    // 设置data属性中的navbarActiveIndex为当前点击的navbar
+    this.setData({
+      navbarActiveIndex: detail.current
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
 
   },
-  to_coupons:function(){
-    wx.navigateTo({
-      url: '../coupons/coupons',
-    })
-  },
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
