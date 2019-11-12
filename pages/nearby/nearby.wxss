@@ -12,23 +12,27 @@
   margin: 15px 15px;
   height: 150rpx;
   width: auto;
+  border-radius: 18rpx;
 
 }
 
 .view_tiem1{
   display: flex;
   width: auto;
-  height: 80rpx;
-  /* background-color: #FFFFFF; */
+  height: 60rpx;
   margin: 10px 0 ;
   flex-direction: row;
-  /* justify-content: space-around; */
+}
+.view_text_addr{
+  margin-left: 50rpx;
+  margin-top: 20rpx;
 }
 .view_img{
   display: flex;
   width:50rpx;
   height:50rpx;
-  margin: 10px 10px 10px auto; 
+  margin-left: 60rpx;
+  margin-top: 15rpx;
 }
 
 .view_img1{

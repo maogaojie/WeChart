@@ -8,14 +8,14 @@
 </view>
 
 <view class='ophours'>
-<text>营业时间</text>
+<text class='private_text'>营业时间</text>
     <text>{{store_list.opening_hours}}</text>
 
 </view>
 
 <view class="private">
 <view >
-<text>私教课程</text>
+<text class='private_text'>私教课程</text>
 
 </view>
 
@@ -28,7 +28,7 @@
 </view>
 
 <view class='corclass'>
-<text>团体课程</text>
+<text class='private_text'>团体课程</text>
 
 
 </view>
@@ -36,5 +36,5 @@
 
 <view class="cordetail" wx:for="{{tuanjian}}" wx:key="index">
 {{item.name}}
-<image src="http://120.27.247.213:8000/media/{{item.image}}"></image>
+<image class="pub_cls_img" src="http://120.27.247.213:8000/media/{{item.image}}"></image>
 </view>

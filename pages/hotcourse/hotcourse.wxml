@@ -49,7 +49,7 @@
           <navigator class="nav-item" wx:for="{{title_list}}" wx:key="index" url="../public_detail/public_detail?id={{item.id}}">
             <image class="item-center icon" src="http://120.27.247.213:8000/media/{{item.image}}"></image>
             <view class="item-center text">{{item.name}}</view>
-            <view class="item-center arrow"> > </view>
+            <view class="item-center arrow">  </view>
         </navigator>
         <!-- <navigator class="nav-item" url="../public_detail/public_detail">
             <image class="item-center icon" src="/static/imgs/u2.png"></image>

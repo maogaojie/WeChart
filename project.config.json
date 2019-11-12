@@ -124,6 +124,12 @@
 					"pathName": "pages/test/test",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/room_detail/room_detail",
+					"pathName": "pages/room_detail/room_detail",
+					"scene": null
 				}
 			]
 		}

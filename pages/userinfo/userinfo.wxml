@@ -28,10 +28,10 @@
 
 <view class="view_item">
 
-<navigator class="nav-item" url="#">
+<navigator class="nav-item" url="../coupons/coupons">
             <view class="item-center text">优惠券</view>
 
-            <view class="item-center arrow"> > </view>
+            <view class="item-center arrow">  </view>
 </navigator>
 
 </view>
@@ -41,7 +41,7 @@
 <navigator class="nav-item" url="#">
             <view class="item-center text">我的订单</view>
 
-            <view class="item-center arrow"> > </view>
+            <view class="item-center arrow">  </view>
 </navigator>
 
 </view>
@@ -50,7 +50,7 @@
 <navigator class="nav-item" url="#">
             <view class="item-center text">邀请有礼</view>
 
-            <view class="item-center arrow"> > </view>
+            <view class="item-center arrow">  </view>
 </navigator>
 
 </view>
@@ -59,7 +59,7 @@
 <navigator class="nav-item" url="#">
             <view class="item-center text">企业合作</view>
 
-            <view class="item-center arrow"> > </view>
+            <view class="item-center arrow">  </view>
 </navigator>
 
 </view>

@@ -10,7 +10,7 @@
 </view>
 
 <view class='view_tiem1'>
-<text>{{city}}--{{district}}</text>
+<text class='view_text_addr'>{{city}}--{{district}}</text>
 <image class="view_img" src="/static/imgs/l1.png" bindtap="Map"></image>
 </view>
 

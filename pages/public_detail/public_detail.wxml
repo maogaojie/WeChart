@@ -22,7 +22,7 @@
             {{one_course.store}}
             </view>
 
-            <view class="item-center arrow"> > </view>
+            <view class="item-center arrow">  </view>
 </navigator>
 
 </view>

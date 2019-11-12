@@ -1,0 +1,66 @@
+<view class="main_container">
+
+
+
+
+  <view class="text_bar">
+    <view class="view_input">
+            <input class='input_style' type="text" placeholder="请输入兑换码"></input>
+    </view>
+  </view>
+
+  <view class="body">
+
+     <view class="movie-container">
+    <view class="navbar">
+      <block wx:for="{{navbarTitle}}" wx:key="index">
+
+      <view class="navbar-item {{navbarActiveIndex === index ? 'navbar-item-active' : ''}}" data-navbar-index="{{index}}" catchtap="onNavBarTap">
+               <text>{{item}}</text>
+             </view>
+          </block>
+
+  </view>
+
+  <view class="movie-content-wrapper">
+
+    <swiper class="swiper" current="{{navbarActiveIndex}}" bindanimationfinish="onBindAnimationFinish">
+
+      <swiper-item wx:for="{{navbarTitle}}" wx:key="index">
+
+        <scroll-view scroll-y="{{true}}" class='scroll_data'>
+
+          <view class="coupons_style">
+            <view class="box2">  </view>
+
+            <view class="view_text">
+              <text class="text_style">90￥</text>
+            </view>
+          </view>
+      
+
+
+          <view class="coupons_style">
+            <view class="box2">  </view>
+
+            <view class="view_text">
+              <text class="text_style">10￥</text>
+            </view>
+          </view>
+
+
+        </scroll-view>
+
+      </swiper-item>
+
+    </swiper>
+
+  </view>
+
+</view>
+
+
+
+
+  </view>
+</view>
